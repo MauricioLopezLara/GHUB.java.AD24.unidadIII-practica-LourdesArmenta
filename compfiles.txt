@@ -1,2 +1,3 @@
+./hashtable/Persona.java
 ./miPrincipal/Principal.java
 ./miTest/AppTest.java
