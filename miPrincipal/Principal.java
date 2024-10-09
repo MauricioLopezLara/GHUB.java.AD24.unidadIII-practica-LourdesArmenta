@@ -29,8 +29,15 @@ public class Principal {
 
 
         System.out.println(tabla.get("Luis"));//retorna null porque el key Luis no fue ingresado
-
+        //recorre toda la hashtable a través de la interface Enumeration
         String aux;
+        Enumeration<String> keys = tabla.keys();
+        while(keys.hasMoreElements()){
+            aux = keys.nextElement();
+            System.out.println(aux+" = "+tabla.get(aux));
+
+        }
+        
         
 
 

@@ -1,3 +1,5 @@
+./hashtable/Ciudad.java
 ./hashtable/Persona.java
+./miPrincipal/PruebaTablaDispersionCiudad.java
 ./miPrincipal/Principal.java
 ./miTest/AppTest.java
