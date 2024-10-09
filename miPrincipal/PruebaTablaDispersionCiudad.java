@@ -34,7 +34,7 @@ public class PruebaTablaDispersionCiudad{
         }
         System.out.println();
         //recorrer toda la hashtable a través de la interface Enumeration
-        System.out.println("Recorriendo la tabla con iterator");
+        System.out.println("Recorriendo la tabla con Enumeration");
         String aux;
         Enumeration<String> keys = tabla.keys();
         while(keys.hasMoreElements()){
